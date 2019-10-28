@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="../">Pizza Zone Account</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="video.html">Contact Us</a></li>
+
+
+
+        </ul>
+    </nav>
+
+    <form method="post" name="forms"
+                action="index.html">
+        <div class="forms">
+            <div class="cell1">
+                <h3>Tushar Pizza</h3>
+                <hr/>
+                <p>Uni Mall,Lovely Professional University </p>
+
+                <hr/>
+                <table>
+                    <tr>
+                        <td>Small</td>
+                        <td>Rs99</td>
+                    </tr>
+                    <tr>
+                        <td>Medium</td>
+                        <td>Rs199</td>
+                    </tr>
+                    <tr>
+                        <td>Large</td>
+                        <td>Rs399</td>
+                    </tr>
+                    <tr>
+                        <td>X-Large</td>
+                        <td>Rs599</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Toppings</td>
+                    </tr>
+                    <tr>
+                        <td>Rs20</td>
+                        <td>Each</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">Free Delivery</td>
+                    </tr>
+                </table>
+                Your Price<br/>
+                <input name="price" size="8"/>
+            </div>
+            <div class="forms2">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    Name <input name="name" /><br/>
+                    Account No. <input type="number" name="account" /><br />
+                    Phone No. <input type="tel" name="phone" /><br />
+                    Date of Birth <input type="date" name="birthday" />
+                </fieldset>
+                <fieldset>
+                    <legend>Pizza size&amp; Crust</legend>
+                    <select name="size" size="2">
+                        <option>Select Pizza Size</option>
+                        <option value="1">Small</option>
+                        <option value="2">Medium</option>
+                        <option value="3">Large</option>
+                        <option value="4">X-Large</option>
+                    </select>
+                    <select name="crust" size="2">
+                        <option value="1">Regular Crust</option>
+                        <option value="2">Thin Crust</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Cheeses</legend>
+                    <input type="radio" name="cheese" value="1"/>Mozzarella
+                    <input type="radio" name="cheese" value="2"/>Cheddar
+                    <input type="radio" name="cheese" value="3"/>Cream cheese
+                </fieldset>
+                <fieldset>
+                    <legend>Sauces</legend>
+                    <input type="radio" name="sauce" value="1"/>Pizza Sauce
+                    <input type="radio" name="sauce" value="2"/>BBQ sauce
+                    <input type="radio" name="sauce" value="3"/>Garlic Sauce
+                </fieldset>
+                <fieldset>
+                    <legend>Special Instructions</legend>
+                    <textarea name="instructions" rows="3" cols="42"></textarea>
+                </fieldset>
+                <input type="submit" value="PLACE YOUR ORDER"/>
+                <input type="reset" value="START OVER"/>
+            </div>
+            <div class="forms2">
+                <fieldset>
+                    <legend>Choose Toppings - Rs20 Each</legend>
+                    <div class="forms2">
+                        <input type="checkbox" name="topping" value="1"/> Black Olive<br/>
+                        <input type="checkbox" name="topping" value="2"/> Onion<br/>
+                        <input type="checkbox" name="topping" value="3"/> Red Paprika<br/>
+                        <input type="checkbox" name="topping" value="4"/> Golden Corn<br/>
+                        <input type="checkbox" name="topping" value="5"/> Grilled Mushroom<br/>
+                        <input type="checkbox" name="topping" value="6"/> Paneer<br/>
+                        <input type="checkbox" name="topping" value="7"/> Ham <br/>
+                        <input type="checkbox" name="topping" value="8"/> Pepperoni <br/>
+                        <input type="checkbox" name="topping" value="9"/> Tikka<br/>
+
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>
